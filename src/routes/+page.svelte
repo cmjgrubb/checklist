@@ -212,9 +212,11 @@
 			<td><input class="notes" type="text" id="spec_compliance" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="fw_notes">Current FW construction notes are on plans</label></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="fw_notes">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -223,7 +225,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="fw_notes">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -231,12 +233,16 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="fw_notes" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="easements"
+					>All existing easements are shown including deed book & page or instrument number</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="easements">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -245,7 +251,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="easements">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -253,12 +259,12 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="easements" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td"> <label for="vicinity_map">Vicinity map</label></td>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="vicinity_map">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -267,7 +273,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="vicinity_map">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -275,12 +281,12 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="vicinity_map" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td"> <label for="general_layout">General layout sheet</label></td>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="general_layout">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -289,7 +295,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="general_layout">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -297,12 +303,16 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="general_layout" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="infrastructure_shown"
+					>Current existing water and sanitary sewer infrastructure is shown and described</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="infrastructure_shown">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -311,7 +321,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="infrastructure_shown">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -319,12 +329,14 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="infrastructure_shown" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="onsite_fw_easements">Required onsite FW easements are identified</label></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="onsite_fw_easements">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -333,7 +345,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="onsite_fw_easements">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -341,12 +353,14 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="onsite_fw_easements" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="offsite_fw_easements">Required off site FW easements are identified</label></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="offsite_fw_easements">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -355,7 +369,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="offsite_fw_easements">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -363,12 +377,17 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="offsite_fw_easements" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="no_trees_shrubs"
+					>Note has been added to landscape drawings that no trees or shrubs shall be placed on FW
+					easements</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="no_trees_shrubs">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -377,7 +396,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="no_trees_shrubs">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -385,12 +404,17 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="no_trees_shrubs" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="fw_standards_project_phase"
+					>Project Acceptance Requirements per FW standards (page 4) have been considered in project
+					phasing</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="fw_standards_project_phase">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -399,7 +423,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="fw_standards_project_phase">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -407,12 +431,16 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="fw_standards_project_phase" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="exiting_site_conditions"
+					>Existing site conditions are shown and labeled ie. ex. structures, utilities, etc.</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="exiting_site_conditions">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -421,7 +449,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="exiting_site_conditions">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -429,12 +457,17 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="exiting_site_conditions" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="mdp"
+					>Master development plan reviewed for compliance and MDP #, date included. Any variance
+					from MDP water or sewer requirements is explained</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="mdp">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -443,7 +476,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="mdp">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -451,12 +484,16 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="mdp" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="proffer_statement"
+					>Proffer statement reviewed for compliance and copy included</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="proffer_statement">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -465,7 +502,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="proffer_statement">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -473,12 +510,15 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="proffer_statement" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="exceptions_to_requirements">Exceptions to FW requirements are described</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="exceptions_to_requirements">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -487,7 +527,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="exceptions_to_requirements">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -495,12 +535,16 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="exceptions_to_requirements" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="lines_minimized"
+					>Length of water and sewer lines on private property to be owned by FW kept to minimum</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="lines_minimized">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -509,7 +553,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="lines_minimized">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -517,12 +561,16 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="lines_minimized" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="lot_building_street"
+					>Lot numbers, building numbers and street names are shown on all sheets</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="lot_building_street">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -531,7 +579,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="lot_building_street">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -539,12 +587,16 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="lot_building_street" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="reconciled"
+					>All plan sheets have been reconciled to reflect the same information</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="reconciled">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -553,7 +605,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="reconciled">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -561,12 +613,17 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="reconciled" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="field_adjustment"
+					>Existing FW infrastructure requiring field adjustment where grade changes occur has been
+					shown</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="field_adjustment">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -575,7 +632,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="field_adjustment">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -583,12 +640,17 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="field_adjustment" name="notes" /></td>
 		</tr>
 		<tr>
-			<td class="description_td"> <label for="//TODO">//TODO</label></td>
+			<td class="description_td">
+				<label for="abandoned"
+					>Existing FW facilities to be removed or abandoned are noted accordingly. Significant
+					items, fire hydrants, valves, etc., are noted to be furnished to FW inspector</label
+				></td
+			>
 			<td class="select_td">
-				<select name="design_professional" id="//TODO">
+				<select name="design_professional" id="abandoned">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -597,7 +659,7 @@
 				</select></td
 			>
 			<td class="select_td">
-				<select name="first_review" id="//TODO">
+				<select name="first_review" id="abandoned">
 					<option value=""></option>
 					<option value="ok">✅</option>
 					<option value="incomplete">⚠️</option>
@@ -605,7 +667,7 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id="//TODO" name="notes" /></td>
+			<td><input class="notes" type="text" id="abandoned" name="notes" /></td>
 		</tr>
 		<tr>
 			<td class="description_td"> <label for="//TODO">//TODO</label></td>
