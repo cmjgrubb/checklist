@@ -7,6 +7,12 @@
 		<tr>
 			<td colspan="4" class="section_td">{data.data_name}</td>
 		</tr>
+		<tr>
+			<th class="primary_th">Description</th>
+			<th class="secondary_th">Design<br />Professional</th>
+			<th class="secondary_th">First<br />Review</th>
+			<th class="primary_th">Notes</th>
+		</tr>
 	{:else}
 		<tr>
 			<td class="description_td"> <label for={data.data_id}>{data.data_name}</label></td>
@@ -28,12 +34,19 @@
 					<option value="unacceptable">❌</option>
 				</select>
 			</td>
-			<td><input class="notes" type="text" id={data.data_id} name="notes" /></td>
+			<td><textarea class="notes" id={data.data_id} name="notes" rows="3" /></td>
 		</tr>
 	{/if}
 {/each}
 
 <style>
+	.section_td {
+		color: #3a6eab;
+		font-size: 1.5rem;
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+	}
+
 	.description_td {
 		padding-right: 5rem;
 	}
@@ -44,5 +57,22 @@
 
 	.notes {
 		width: 35rem;
+		height: 3rem;
+		margin-top: 1rem;
+	}
+
+	.primary_th {
+		color: #3a6eab;
+		font-size: 1.2rem;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+		text-align: left;
+	}
+
+	.secondary_th {
+		color: #3a6eab;
+		line-height: 1rem;
+		font-size: 0.8rem;
+		text-align: left;
 	}
 </style>

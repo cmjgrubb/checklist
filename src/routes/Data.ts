@@ -134,5 +134,80 @@ export const ROW_DATA = [
 	{
 		data_name: 'Air release has been evaluated and shown',
 		data_id: 'air_release'
+	},
+	{
+		data_name: "FW's water infrastructure has been evaluated and can meet project demands",
+		data_id: 'water_infrastructure'
+	},
+	{
+		data_name: 'Water meter size(s) are shown',
+		data_id: 'water_meter_size'
+	},
+	{
+		data_name:
+			"Fire line(s) to building show gate valve 10'&ndash;20' off building with ownership line; valve is the end of FW ownership",
+		data_id: 'fire_line'
+	},
+	{
+		data_name: 'Double detector size and location is shown',
+		data_id: 'double_detector'
+	},
+	{
+		data_name: 'Water segments are labeled on plan and profile',
+		data_id: 'water_segments'
+	},
+	{
+		data_name: 'Sanitary sewer crossings are shown under water lines with min. 18" separation',
+		data_id: 'sewer_crossings'
+	},
+	{
+		data_name: 'Sanitary lateral crossings have lot number and elevation shown on profile',
+		data_id: 'lateral_crossings'
+	},
+	{
+		data_name: 'All crossings are labeled including min. 18" separation',
+		data_id: 'crossings_labeled'
+	},
+	{
+		data_name:
+			'Connection to existing lines are labeled and include party responsible for field connection',
+		data_id: 'connection_to_existing'
+	},
+	{
+		data_name: 'Special conditions, service disruption, bypass piping, etc., are clearly detailed',
+		data_id: 'special_conditions'
+	},
+	{
+		data_name: 'Existing and proposed line diameters, pipe types, etc., are shown',
+		data_id: 'line_diameters'
+	},
+	{
+		data_name: 'Water lines shall be CL 52 DIP',
+		data_id: 'cl_52_dip'
+	},
+	{
+		data_name: 'Water lines under permeable pavers should be minimized',
+		data_id: 'permeable_pavers'
+	},
+	{
+		data_name: 'Bollards around fire hydrants in truck and other vulnerable areas are shown',
+		data_id: 'bollards'
+	},
+	{
+		data_name: 'Applicable FW detail drawings are included',
+		data_id: 'fw_detail_drawings'
+	},
+	{
+		data_name: "Restrained joints in fill areas and 20' onto original ground are reflected",
+		data_id: 'restrained_joints'
+	},
+	{
+		data_name:
+			'Existing FW laterals, services, main stubs, etc., unutilized are shown with details for disconnection and removal',
+		data_id: 'unutilized_fw'
+	},
+	{
+		data_name: 'Protectus 3 meter, including size, is shown for private underground fire lines',
+		data_id: 'protectus_3_meter'
 	}
 ];

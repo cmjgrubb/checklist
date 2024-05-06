@@ -49,17 +49,6 @@
 	</table>
 
 	<table class="primary_table">
-		<thead>
-			<tr>
-				<th class="primary_th">Description</th>
-				<th class="secondary_th">Design<br />Professional</th>
-				<th class="secondary_th">First<br />Review</th>
-				<th class="primary_th">Notes</th>
-			</tr>
-		</thead>
-		<tr>
-			<td colspan="4" class="section_td">General</td>
-		</tr>
 		<Row />
 	</table>
 </form>
@@ -75,24 +64,22 @@
 
 	h1 {
 		font-size: 2rem;
+		color: #014b92;
 	}
 
 	h2 {
-		color: #014b92;
+		color: #3a6eab;
 		font-size: 1.5rem;
 		margin-top: 2rem;
 		margin-bottom: 0.5rem;
 	}
 
-	h3,
-	th {
-		color: #014b92;
-		font-size: 1.2rem;
+	h3 {
+		color: #3a6eab;
+		font-size: 1.3rem;
 		margin-top: 2rem;
-		margin-bottom: 1rem;
-		text-align: left;
+		margin-bottom: 0.5rem;
 	}
-
 	.top_table td {
 		padding-right: 2.5rem;
 	}
@@ -104,30 +91,6 @@
 
 	.primary_table {
 		margin-top: 2rem;
-	}
-
-	.secondary_th {
-		line-height: 1rem;
-		font-size: 0.8rem;
-	}
-
-	.section_td {
-		background-color: #014b92;
-		color: #c0da2f;
-		text-align: center;
-		font-size: 1.2rem;
-	}
-
-	.description_td {
-		padding-right: 5rem;
-	}
-
-	.select_td {
-		padding-right: 2.5rem;
-	}
-
-	.notes {
-		width: 35rem;
 	}
 
 	.color_pallette {
