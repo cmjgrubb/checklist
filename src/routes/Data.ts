@@ -187,7 +187,7 @@ export const ROW_DATA = [
 	},
 	{
 		data_name: 'Water lines under permeable pavers should be minimized',
-		data_id: 'permeable_pavers'
+		data_id: 'water_permeable_pavers'
 	},
 	{
 		data_name: 'Bollards around fire hydrants in truck and other vulnerable areas are shown',
@@ -274,5 +274,43 @@ export const ROW_DATA = [
 	{
 		data_name: 'Special conditions, service disruption, bypass piping, etc., are clearly detailed',
 		data_id: 'sewer_special_conditions'
+	},
+	{
+		data_name: 'Line diameters, pipetypes, etc., are shown',
+		data_id: 'sewer_line_diameters'
+	},
+	{
+		data_name: 'Sewer lines under permeable pavers should be minimized',
+		data_id: 'sewer_permeable_pavers'
+	},
+	{
+		data_name: 'Applicable FW detail drawings are included',
+		data_id: 'fw_sewer_detail_drawings'
+	},
+	{
+		data_name:
+			'Existing FW laterals, services, main stubs, etc., unutilized are shown with details for disconnection and removal',
+		data_id: 'unutilized_fw_sewer'
+	},
+	{
+		data_name: "Restrained joints in fill areas and 20' onto original ground are reflected",
+		data_id: 'restrained_joints_sewer'
+	},
+	{
+		data_name: 'Drop connections are noted on plans and profiles',
+		data_id: 'drop_connections'
+	},
+	{
+		data_name:
+			'Multiple inside drop connections into same manhole have been evaluated and larger manhole is identified',
+		data_id: 'inside_drop_connections'
+	},
+	{
+		data_name: "Manholes larger than 4' are labeled",
+		data_id: 'large_manholes'
+	},
+	{
+		data_name: 'Deep sewer laterals are noted on plans and profiles',
+		data_id: 'deep_sewer_laterals'
 	}
 ];
