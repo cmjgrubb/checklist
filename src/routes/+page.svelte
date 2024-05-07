@@ -92,15 +92,4 @@
 	.primary_table {
 		margin-top: 2rem;
 	}
-
-	.color_pallette {
-		color: #014b92;
-		color: #c0da2f;
-		color: #3a6eab;
-		color: #468fc6;
-		color: #e6a837;
-		color: #8c877e;
-		color: #b5b0a7;
-		color: #d2cdc4;
-	}
 </style>

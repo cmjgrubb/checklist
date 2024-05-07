@@ -224,11 +224,11 @@ export const ROW_DATA = [
 	},
 	{
 		data_name: "Minimum 25' pre-blast is shown for main-line stubs",
-		data_id: 'pre_blast'
+		data_id: 'pre_blast_water'
 	},
 	{
 		data_name: 'Air release and vacuum breaker valabes have been valuated and shown',
-		data_id: 'air_release_valves'
+		data_id: 'air_release_valves_water'
 	},
 	{
 		data_name: 'Appropriate FW detail drawings are included',
@@ -312,5 +312,90 @@ export const ROW_DATA = [
 	{
 		data_name: 'Deep sewer laterals are noted on plans and profiles',
 		data_id: 'deep_sewer_laterals'
+	},
+	{
+		data_name: 'Pipe types are shown on plan and profile for all segments',
+		data_id: 'sewer_pipe_types'
+	},
+	{
+		data_name: "Minimum 25' pre-blast is shown for main-line stubs",
+		data_id: 'pre_blast_sewer'
+	},
+	{
+		data_name: 'Air release and vacuum breaker valabes have been valuated and shown',
+		data_id: 'air_release_valves_sewer'
+	},
+	{
+		data_name: 'Appropriate FW detail drawings are included',
+		data_id: 'fw_sewer_detail_drawings'
+	},
+	{
+		data_name: 'Sanitary Sewer Pump Stations',
+		data_id: 'header_row'
+	},
+	{
+		data_name: 'Show all proposed site improvements',
+		data_id: 'site_improvements'
+	},
+	{
+		data_name: 'Pump station wet well accessible by vactor truck',
+		data_id: 'wet_well_accessible'
+	},
+	{
+		data_name: 'Personnel door accessible to full-size pickup truck',
+		data_id: 'personnel_door_accessible'
+	},
+	{
+		data_name: 'Show and label existing contours',
+		data_id: 'existing_contours'
+	},
+	{
+		data_name: 'Show and label final contours',
+		data_id: 'final_contours'
+	},
+	{
+		data_name: 'show proposed utilities, including electrical, telephone services information',
+		data_id: 'proposed_utilities'
+	},
+	{
+		data_name: 'Show transformer and generator location and dimensions',
+		data_id: 'transformer_generator'
+	},
+	{
+		data_name: 'Provide 100-year floodplain elevation and note on PS plan',
+		data_id: '100_year_floodplain'
+	},
+	{
+		data_name: 'Fence is shown on property line',
+		data_id: 'fence'
+	},
+	{
+		data_name: "Gently sloping minimum 3' gravel outside fence perimeter",
+		data_id: 'gravel_fence'
+	},
+	{
+		data_name: 'Surface water is directed away from pump station lot',
+		data_id: 'surface_water'
+	},
+	{
+		data_name: 'Paving and stone areas are labeled',
+		data_id: 'paving_and_stone'
+	},
+	{
+		data_name: "Gate size is shown and post is min. 1' off pavement",
+		data_id: 'gate_size'
+	},
+	{
+		data_name: 'Access road provides heavy truck access and slopes no greater than 10%',
+		data_id: 'access_road'
+	},
+	{
+		data_name:
+			'Station information sheets are complete including interim and buildout as applicable',
+		data_id: 'station_information'
+	},
+	{
+		data_name: 'Appropriate FW detail drawings are included',
+		data_id: 'fw_pump_station_detail_drawings'
 	}
 ];
