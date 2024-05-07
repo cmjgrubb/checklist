@@ -183,7 +183,7 @@ export const ROW_DATA = [
 	},
 	{
 		data_name: 'Water lines shall be CL 52 DIP',
-		data_id: 'cl_52_dip'
+		data_id: 'water_lines_cl_52'
 	},
 	{
 		data_name: 'Water lines under permeable pavers should be minimized',
@@ -209,5 +209,70 @@ export const ROW_DATA = [
 	{
 		data_name: 'Protectus 3 meter, including size, is shown for private underground fire lines',
 		data_id: 'protectus_3_meter'
+	},
+	{
+		data_name: 'Fire lines are shown as CL 52 DIP and restrained',
+		data_id: 'fire_lines_cl_52'
+	},
+	{
+		data_name: 'Pipe types are shown on plan and profile for all segments',
+		data_id: 'water_pipe_types'
+	},
+	{
+		data_name: 'Valves are shown on all branches of tees, crosses, wyes, etc.',
+		data_id: 'water_valves'
+	},
+	{
+		data_name: "Minimum 25' pre-blast is shown for main-line stubs",
+		data_id: 'pre_blast'
+	},
+	{
+		data_name: 'Air release and vacuum breaker valabes have been valuated and shown',
+		data_id: 'air_release_valves'
+	},
+	{
+		data_name: 'Appropriate FW detail drawings are included',
+		data_id: 'fw_water_detail_drawings'
+	},
+	{
+		data_name:
+			"Virginia Department of Health's Project Summary Report is completed and included, see http://www.vdh.virginia.gov/content/uploads/sites/14/2016/04/General-Permit-Project-Summary-Report.pdf",
+		data_id: 'vdh_project_summary'
+	},
+	{
+		data_name: 'Sanitary Sewer',
+		data_id: 'header_row'
+	},
+	{
+		data_name: 'Project sanitary sewer system has been modeled',
+		data_id: 'sewer_system_modeled'
+	},
+	{
+		data_name: "FW's sanitary sewer infrastructure has been evaluated and can meet project demands",
+		data_id: 'sewer_infrastructure'
+	},
+	{
+		data_name: 'Manhole rim elevations are shown',
+		data_id: 'manhole_rim_elevations'
+	},
+	{
+		data_name: 'Sewer segments are labeled on plan and profile',
+		data_id: 'sewer_segments'
+	},
+	{
+		data_name: 'Water line crossings are shown above sewer min. 18" separation',
+		data_id: 'sewer_crossings_labeled'
+	},
+	{
+		data_name: 'All crossings are labeled including min. 18" separation',
+		data_id: 'sewer_crossings'
+	},
+	{
+		data_name: 'Connection points are labeled and identify party performing connection',
+		data_id: 'sewer_connection_to_existing'
+	},
+	{
+		data_name: 'Special conditions, service disruption, bypass piping, etc., are clearly detailed',
+		data_id: 'sewer_special_conditions'
 	}
 ];
