@@ -33,7 +33,7 @@ export const ROW_DATA = [
 		data_id: 'fw_notes'
 	},
 	{
-		data_name: 'All existing easements are shown including deed book & page or instrument number',
+		data_name: 'All existing easements are shown including deed book and page or instrument number',
 		data_id: 'easements'
 	},
 	{
@@ -67,7 +67,8 @@ export const ROW_DATA = [
 		data_id: 'fw_standards_project_phase'
 	},
 	{
-		data_name: 'Existing site conditions are shown and labeled ie. ex. structures, utilities, etc.',
+		data_name:
+			'Existing site conditions are shown and labeled, i.e. ex. structures, utilities, etc.',
 		data_id: 'existing_site_conditions'
 	},
 	{
@@ -89,7 +90,7 @@ export const ROW_DATA = [
 		data_id: 'lines_minimized'
 	},
 	{
-		data_name: 'Lot numbers, building numbers and street names are shown on all sheets',
+		data_name: 'Lot numbers, building numbers, and street names are shown on all sheets',
 		data_id: 'lot_building_street'
 	},
 	{
@@ -122,6 +123,14 @@ export const ROW_DATA = [
 	{
 		data_name: 'Street ownership (VDOT or private) is shown',
 		data_id: 'street_ownership'
+	},
+	{
+		data_name: 'Water and sanitary sewer usage is shown in peak GPM and GPD',
+		data_id: 'usage'
+	},
+	{
+		data_name: 'Plan review fee worksheet is completed and check is included',
+		data_id: 'fee_worksheet'
 	},
 	{
 		data_name: 'Water',
@@ -236,7 +245,7 @@ export const ROW_DATA = [
 	},
 	{
 		data_name:
-			"Virginia Department of Health's Project Summary Report is completed and included, see http://www.vdh.virginia.gov/content/uploads/sites/14/2016/04/General-Permit-Project-Summary-Report.pdf",
+			"Virginia Department of Health's Project Summary Report is completed and included, see <a href='http://www.vdh.virginia.gov/content/uploads/sites/14/2016/04/General-Permit-Project-Summary-Report.pdf'>http://www.vdh.virginia.gov/content/uploads/sites/14/2016/04/General-Permit-Project-Summary-Report.pdf</a>",
 		data_id: 'vdh_project_summary'
 	},
 	{
@@ -276,7 +285,7 @@ export const ROW_DATA = [
 		data_id: 'sewer_special_conditions'
 	},
 	{
-		data_name: 'Line diameters, pipetypes, etc., are shown',
+		data_name: 'Line diameters, pipe types, etc., are shown',
 		data_id: 'sewer_line_diameters'
 	},
 	{
@@ -322,7 +331,7 @@ export const ROW_DATA = [
 		data_id: 'pre_blast_sewer'
 	},
 	{
-		data_name: 'Air release and vacuum breaker valabes have been valuated and shown',
+		data_name: 'Air release and vacuum breaker valves have been evaluated and shown',
 		data_id: 'air_release_valves_sewer'
 	},
 	{
@@ -342,7 +351,7 @@ export const ROW_DATA = [
 		data_id: 'wet_well_accessible'
 	},
 	{
-		data_name: 'Personnel door accessible to full-size pickup truck',
+		data_name: 'Personnel door accessible to full-size pickup truck (suction lift pumps only)',
 		data_id: 'personnel_door_accessible'
 	},
 	{
@@ -354,7 +363,7 @@ export const ROW_DATA = [
 		data_id: 'final_contours'
 	},
 	{
-		data_name: 'show proposed utilities, including electrical, telephone services information',
+		data_name: 'Show proposed utilities, including electrical and telephone services information',
 		data_id: 'proposed_utilities'
 	},
 	{

@@ -1,5 +1,11 @@
 <script lang="ts">
 	import { ROW_DATA } from './Data';
+
+	let row_number: number = 0;
+	const increment = () => {
+		row_number++;
+		return row_number;
+	};
 </script>
 
 {#each ROW_DATA as data}
@@ -14,8 +20,10 @@
 			<th class="primary_th">Notes</th>
 		</tr>
 	{:else}
-		<tr>
-			<td class="description_td"> <label for={data.data_id}>{data.data_name}</label></td>
+		<tr class="zebra">
+			<td class="description_td">
+				<label for={data.data_id}>{increment()}. {@html data.data_name}</label></td
+			>
 			<td class="select_td">
 				<select name="design_professional" id={data.data_id}>
 					<option value=""></option>
@@ -40,6 +48,9 @@
 {/each}
 
 <style>
+	.zebra:nth-child(even) {
+		background-color: #f0f0f0;
+	}
 	.section_td {
 		color: #3a6eab;
 		font-size: 1.5rem;
@@ -48,6 +59,7 @@
 	}
 
 	.description_td {
+		padding-left: 2rem;
 		padding-right: 5rem;
 	}
 
