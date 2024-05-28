@@ -17,16 +17,7 @@
 	}
 
 	function clearForm() {
-		form = {
-			site_plan_name: '',
-			design_professional_name: '',
-			design_professional_phone: '',
-			tax_map: '',
-			submission_date: '',
-			submission_number: '',
-			first_review: '',
-			notes: ''
-		};
+		location.reload();
 	}
 
 	function printAndClearForm() {
@@ -108,6 +99,14 @@
 		line-height: 2;
 	}
 
+	button {
+		background-color: #014b92;
+		color: #fff;
+		padding: 0.5rem 1rem;
+		border: none;
+		margin-top: 2rem;
+	}
+
 	h1 {
 		font-size: 2rem;
 		color: #014b92;
@@ -141,5 +140,19 @@
 
 	.primary_table {
 		margin-top: 2rem;
+	}
+
+	@media print {
+		table {
+			max-width: 100%;
+		}
+
+		td {
+			word-wrap: break-word;
+		}
+
+		button {
+			display: none;
+		}
 	}
 </style>

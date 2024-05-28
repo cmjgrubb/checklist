@@ -60,7 +60,7 @@
 
 	.description_td {
 		padding-left: 2rem;
-		padding-right: 5rem;
+		padding-right: 4rem;
 	}
 
 	.select_td {
@@ -68,8 +68,8 @@
 	}
 
 	.notes {
-		width: 35rem;
-		height: 3rem;
+		width: 25rem;
+		height: 4rem;
 		margin-top: 1rem;
 	}
 
@@ -86,5 +86,12 @@
 		line-height: 1rem;
 		font-size: 0.8rem;
 		text-align: left;
+	}
+
+	@media print {
+		td.description_td {
+			padding-left: 0px;
+			padding-right: 10px;
+		}
 	}
 </style>
