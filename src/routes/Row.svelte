@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ROW_DATA } from './Data';
+	import { ROW_DATA } from "./Data";
 
 	let row_number: number = 0;
 	const increment = () => {
@@ -9,20 +9,20 @@
 </script>
 
 {#each ROW_DATA as data}
-	{#if data.data_id === 'header_row'}
+	{#if data.data_id === "header_row"}
 		<tr>
 			<td colspan="4" class="section_td">{data.data_name}</td>
 		</tr>
 		<tr>
 			<th class="primary_th">Description</th>
 			<th class="secondary_th">Design<br />Professional</th>
-			<th class="secondary_th">First<br />Review</th>
 			<th class="primary_th">Notes</th>
 		</tr>
 	{:else}
 		<tr class="zebra">
 			<td class="description_td">
-				<label for={data.data_id}>{increment()}. {@html data.data_name}</label></td
+				<label for={data.data_id}>{increment()}. {@html data.data_name}</label
+				></td
 			>
 			<td class="select_td">
 				<select name="design_professional" id={data.data_id}>
@@ -33,16 +33,8 @@
 					<option value="unacceptable">❌</option>
 				</select></td
 			>
-			<td class="select_td">
-				<select name="first_review" id={data.data_id}>
-					<option value=""></option>
-					<option value="ok">✅</option>
-					<option value="incomplete">⚠️</option>
-					<option value="not_applicable">N</option>
-					<option value="unacceptable">❌</option>
-				</select>
-			</td>
-			<td><textarea class="notes" id={data.data_id} name="notes" rows="3" /></td>
+			<td><textarea class="notes" id={data.data_id} name="notes" rows="3" /></td
+			>
 		</tr>
 	{/if}
 {/each}
@@ -60,11 +52,11 @@
 
 	.description_td {
 		padding-left: 2rem;
-		padding-right: 4rem;
+		padding-right: 2rem;
 	}
 
 	.select_td {
-		padding-right: 2.5rem;
+		padding-right: 4rem;
 	}
 
 	.notes {
