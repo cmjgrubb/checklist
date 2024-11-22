@@ -129,7 +129,7 @@ export const ROW_DATA = [
 	},
 	{
 		data_name:
-			"Existing FW facilities to be removed or abandoned are noted accordingly; significant items, fire hydrants, valves, etc., are noted to be furnished to FW inspector",
+			"Existing FW facilities to be removed are noted accordingly; significant items, fire hydrants, valves, etc., are noted to be furnished to FW inspector",
 		data_id: "abandoned",
 	},
 	{
@@ -169,7 +169,7 @@ export const ROW_DATA = [
 		data_id: "header_row",
 	},
 	{
-		data_name: "Project water system has been modeled and provided",
+		data_name: "Project water system has been modeled and provided and brief summary included on plan",
 		data_id: "water_system_modeled",
 	},
 	{
@@ -191,7 +191,7 @@ export const ROW_DATA = [
 		data_id: "fire_line",
 	},
 	{
-		data_name: "Double detector size and location is shown",
+		data_name: "Double check valve assembly(s) size and location shown",
 		data_id: "double_detector",
 	},
 	{
@@ -261,7 +261,7 @@ export const ROW_DATA = [
 	},
 	{
 		data_name:
-			"Protectus 3 meter, including size, is shown for private underground fire lines",
+			"Neptune Protectus 3 or Neptune Mach 10 Ultrasonic fire meter including size is shown for private firelines",
 		data_id: "protectus_3_meter",
 	},
 	{
@@ -287,7 +287,7 @@ export const ROW_DATA = [
 	},
 	{
 		data_name:
-			"Air release and vacuum breaker valabes have been valuated and shown",
+			"Air release and vacuum breaker valves have been evaluated and shown",
 		data_id: "air_release_valves_water",
 	},
 	{
